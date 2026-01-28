@@ -16,3 +16,8 @@ int main () {
     return 0;
 }
 
+// Rules:
+// variables must be declared before use
+// no spaces in variable name
+// case sensitive matters - different case will lead to different variables
+// Keep meaningful names like any sane person would do
