@@ -1,0 +1,18 @@
+// Calculate rectangle's area and perimeter with length & breadth given
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    int length;
+    int breadth;
+
+    cin >> length;
+    cin >> breadth;
+
+    int area = length * breadth;
+    int perimeter = 2 * (length + breadth);
+
+    cout << "Area = " << area << endl;
+    cout << "Perimeter = " << perimeter << endl;
+}
